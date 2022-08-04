@@ -1,0 +1,62 @@
+/*SECCION PORTFOLIO*/
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #333;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+/*ANIDADO*/
+
+.galeria {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 20px;
+    filter: grayscale(0);
+}
+
+.item {
+    height: 200px;
+    border: 2px solid white;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.item1 {
+    background-image: url("../imagenes/Foto\ Portfolio.png");
+}
+
+.item2 {
+    background-image: url("../imagenes/Foto\ portfolio2.png");
+}
+
+.item3 {
+    background-image: url("../imagenes/Foto\ portfolio3.png");
+}
+
+.item4 {
+    background-image: url("../imagenes/Foto\ portfolio4.png");
+}
+
+.item5 {
+    background-image: url("../imagenes/Foto\ portfolio5.png");
+}
+
+.item6 {
+    background-image: url("../imagenes/Foto\ portfolio6.png");
+}
+
+.item7 {
+    background-image: url("../imagenes/Foto\ portfolio7.png");
+}
+
+.item8 {
+    background-image: url("../imagenes/portfolio\ 12.png");
+}
+

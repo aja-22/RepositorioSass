@@ -1,0 +1,73 @@
+/*SECCION-SOBRE MI*/
+
+#sobremi {
+    max-width: auto;
+    margin: auto;
+    padding: 100px 15px;
+    color: $principalColor;
+    display: flex;
+}
+
+#sobremi .contenedor-foto {
+    max-width: 400px;
+    margin-right: 80px;
+}
+
+#sobremi .contenedor-foto img {
+    padding: 20px;
+}
+
+#sobremi .sobremi {
+    margin: 0 40px;
+}
+
+#sobremi .sobremi .titulo-seccion {
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #333;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+#sobremi .sobremi h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+#sobremi .sobremi h2 span {
+    color: green
+}
+
+#sobremi .sobremi h3 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#sobremi .sobremi p {
+    font-size: 14px;
+    line-height: 25px;
+    color: blueviolet;
+    margin-bottom: 12px;
+}
+
+#sobremi .sobremi a {
+    display: inline-block;
+    text-decoration: none;
+    color: blueviolet;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    transition: .5s;
+}
+
+#sobremi .sobremi a:hover {
+    background-color: $principalColor;
+}
